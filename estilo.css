@@ -1,0 +1,201 @@
+body{
+    background-color: rgb(193, 178, 202);
+    color: aliceblue;
+    font: normal, 20px arial;
+
+}
+div#nome{
+    background-color: rgb(18, 29, 25);
+    width: 20px;
+    margin: 100px;
+}
+button#enviar{
+    background-color: rgb(37, 53, 47);
+    position: absolute;
+    top: 400px;
+    right: 350px;  
+   
+}
+p#fim{
+    font-size: 20px;
+    background-color: crimson;
+    color: aliceblue;
+    width: 150px;
+}
+p{
+    font-size: 20px;
+    background-color: crimson;
+    width: 250px;
+    margin: 100px;
+}
+div#escolha{
+    background-color: crimson;
+    margin: 100px;
+    width: 480px;
+    height: 460px;
+}
+div#button{
+    font: normal, 30px arial;
+    background-color: darkslategrey;
+    width: 300px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    margin: 100px;
+    border: 20px;
+    box-shadow: 2px 2px 10px 0px black;
+}
+h1{
+    background-color: rgb(139, 23, 143);
+    font: normal, 20px arial;
+    width: 320px;
+    height: 200px;
+    line-height: 50px;
+    text-align: center;
+    margin: 100px;
+    animation-delay: 2s;
+    animation: rotative 10s linear infinite;
+}
+div#music{
+    background-color: rgb(146, 30, 30);
+color: rgb(255, 255, 255);
+font: normal, 20px arial;
+width: 500px;
+height: 300px;
+line-height: 250px;
+text-align: center;
+margin: 100px;
+
+
+}
+div#music2{
+background-color: rgb(146, 30, 30);
+color: bisque;
+font: normal, 20px arial;
+width: 500px;
+height: 300px;
+line-height: 300px;
+text-align: center;
+margin: 100px;
+}
+div#music3{
+background-color: rgb(146, 30, 30);
+color: bisque;
+font: normal, 20px arial;
+width: 600px;
+height: 400px;
+line-height: 400px;
+text-align: center;
+margin: 100px;
+}
+div#music4{
+background-color: rgb(146, 30, 30);
+color: bisque;
+font: normal, 20px arial;
+width: 600px;
+height: 400px;
+line-height: 400px;
+text-align: center;
+margin: 100px;
+}
+div#music5{
+background-color: rgb(146, 30, 30);
+color: bisque;
+font: normal, 20px arial;
+width: 400px;
+height: 200px;
+line-height: 200px;
+text-align: center;
+margin: 100px;
+}
+#msg1{
+background-color: crimson;
+width: 400px;
+height: 100px;
+text-align: center;
+margin: 100px;
+overflow: hidden;
+animation: fade 4s infinite;
+}
+#msg2{
+background-color: crimson;
+text-align: center;
+width: 400px;
+height: 50px;
+margin: 100px;
+overflow: auto;
+animation: fade 8s infinite;
+}
+#msg3{
+background-color: crimson;
+text-align: center;
+width: 500px;
+height: 60px;
+margin: 100px;
+animation-delay: 2s;
+animation: fade 12s infinite;
+/* backdrop-filter: blur(4px); */
+}
+#msg4{
+background-color: crimson;
+text-align: center;
+width: 520px;
+height: 100px;
+margin: 100px;
+animation-delay: 2s;
+animation: fade 12s infinite;
+}
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+} 
+div#foto1{
+    width: 10px;
+    height: 10px;
+    margin: 100px;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+    flex: 1;
+    transform: .3s all ease;
+
+}
+/* div#foto2{
+    width: 20px;
+    height: 50px;
+    margin: 350px;
+    animation-delay: 4s;
+    animation: rotative 10s infinite;
+}
+div#foto3{
+    width: 30px;
+    height: 30px;
+    margin: 100px;
+    animation-delay: 10s;
+    animation: fade 12s infinite;
+}
+div#foto4{
+    width: 20px;
+    height: 50px;
+    margin: 350px;
+    animation-delay: 15s;
+    animation: fade 8s infinite;
+} */
+ footer{
+    position: fixed;
+    bottom: 0;
+    background-color: darkred;
+ }
